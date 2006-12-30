@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		System
 %define		_subclass	Folders
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	System_Folders
 
 Summary:	%{_pearname} - Location of system folders
 Summary(pl):	%{_pearname} - lokalizacja folderów systemowych
 Name:		php-pear-%{_pearname}
-Version:	0.1.6
+Version:	1.0.0
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	c438ffca39f9f0394b5a85f1346bfc74
+# Source0-md5:	8f47405929bb7ebbc243aa945ffc6bb3
 URL:		http://pear.php.net/package/System_Folders/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
