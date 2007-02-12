@@ -5,7 +5,7 @@
 %define		_pearname	System_Folders
 
 Summary:	%{_pearname} - Location of system folders
-Summary(pl.UTF-8):   %{_pearname} - lokalizacja folderów systemowych
+Summary(pl.UTF-8):	%{_pearname} - lokalizacja folderów systemowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	1
