@@ -5,7 +5,7 @@
 %define		_pearname	System_Folders
 
 Summary:	%{_pearname} - Location of system folders
-Summary(pl):	%{_pearname} - lokalizacja folderÛw systemowych
+Summary(pl.UTF-8):   %{_pearname} - lokalizacja folder√≥w systemowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	1
@@ -29,8 +29,8 @@ desktop and others.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Oblicza lub zgaduje po≥oøenie folderÛw systemÛw takich jak katalog
+%description -l pl.UTF-8
+Oblicza lub zgaduje po≈Ço≈ºenie folder√≥w system√≥w takich jak katalog
 tymczasowy, pulpit czy inne.
 
 Ta klasa ma w PEAR status: %{_status}.
