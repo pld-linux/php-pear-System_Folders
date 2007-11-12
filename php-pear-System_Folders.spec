@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Location of system folders
 Summary(pl.UTF-8):	%{_pearname} - lokalizacja folderów systemowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -19,7 +19,7 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-Config >= 1.10.5
-Requires:	php-pear-PEAR >= 1:1.4.-0.1
+Requires:	php-pear-PEAR-core >= 1:1.4.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
