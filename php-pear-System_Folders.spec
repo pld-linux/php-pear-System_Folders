@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	System_Folders
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Location of system folders
 Summary(pl.UTF-8):	%{pearname} - lokalizacja folderów systemowych
 Name:		php-pear-%{pearname}
